@@ -1,0 +1,13 @@
+1. pip install pipenv
+2. for creating virtual envirement 
+pipenv shell
+3. pipenv install django djangorestframework django-rest-knox
+or install each one independently 
+
+4. create a django project 
+django-admin startproject leadmanager
+5. create an app insdie the project 
+python manage.py startapp leads
+6. go to settings of the project and add 
+- leads as your app 
+- rest_framework as the frame work 
