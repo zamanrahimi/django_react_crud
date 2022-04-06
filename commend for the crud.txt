@@ -11,3 +11,24 @@ python manage.py startapp leads
 6. go to settings of the project and add 
 - leads as your app 
 - rest_framework as the frame work 
+
+7. go to app folder and create model 
+8. create migrations 
+python manage.py makemigrations 
+9. python manage.py migrate
+10. create serializer.py inside the app to change model to json format 
+11. create api.py inside the 
+
+
+------------------  Frontentd create --------------
+------------ create it manually not by create-app in react ----- 
+
+1. python manage.py startapp frontend
+2. got inside frontend/ and created direcotry src/components
+3. inside django-react: 
+npm init -y  
+/ to install npm pakcages 
+
+4. npm install -D webpack webpack-cli
+5. npm i -D @babel/core babel-loader @babel/preset-env @babel/preset-react babel-plugin-transform-class-properties
+6. npm i react react-dom prop-types
